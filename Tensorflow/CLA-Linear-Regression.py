@@ -52,11 +52,12 @@ linear_est = tf.estimator.LinearClassifier(feature_columns=feature_columns)
 linear_est.train(train_input_fn)  # train
 result = linear_est.evaluate(eval_input_fn)  # get model metrics/stats by testing on tetsing data
 
-clear_output()  # clears consoke output
+clear_output()  # clears console output
+print("RESULT:")
 print(result['accuracy'])  # the result variable is simply a dict of stats about our model
 
 # Making predictions
 pred_dicts = list(linear_est.predict(eval_input_fn))
 probs = pd.Series([pred['probabilities'][1] for pred in pred_dicts])
 
-probs.plot(kind='hist', bins=20, title='predicted probabilities')
+#probs.plot(kind='hist', bins=20, title='predicted probabilities')
