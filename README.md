@@ -13,3 +13,7 @@ Learnt about:
 -K means
 
 -Hidden Markov Models
+
+-Neural Networks
+
+-Convolutional Neural Networks
