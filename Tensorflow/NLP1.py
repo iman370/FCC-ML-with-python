@@ -70,8 +70,8 @@ def predict(text):
   result = model.predict(pred) 
   print(result[0])
 
-positive_review = "That movie was! really loved it and would great watch it again because it was amazingly great"
+positive_review = "this movie is so awesome i love monkeys and minions"
 predict(positive_review)
 
-negative_review = "that movie really sucked. I hated it and wouldn't watch it again. Was one of the worst things I've ever watched"
-predict(negative_review)
+#negative_review = "that movie really sucked. I hated it and wouldn't watch it again. Was one of the worst things I've ever watched"
+#predict(negative_review)
