@@ -17,3 +17,7 @@ Learnt about:
 -Neural Networks
 
 -Convolutional Neural Networks
+
+-Natural Language Processing
+
+-Reinforcement Learning (Q-Learning)
