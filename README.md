@@ -1,6 +1,8 @@
 # FCC-ML-with-python
 Machine Learning with Python Course offered by FreeCodeCamp
 
+This course focused on the basics of TensorFlow as well as some basic machine learning models.
+
 ----
 # Tensorflow
 
