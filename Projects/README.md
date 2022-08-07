@@ -1,7 +1,7 @@
 # Cat and Dog image classifier using CNN
 
 Link:
-https://colab.research.google.com/drive/1TcI-iIH7O9mSr3-lEgcjvNF9tAAs4LDX#scrollTo=EOJFeEfumns6
+https://colab.research.google.com/drive/1TcI-iIH7O9mSr3-lEgcjvNF9tAAs4LDX?usp=sharing
 
 How did I find this challenge?
 
