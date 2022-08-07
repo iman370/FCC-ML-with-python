@@ -21,7 +21,7 @@ y_eval = dfeval.pop('survived')     # it also removes the first column from the 
 # Creating feature columns
 CATEGORICAL_COLUMNS = ['sex', 'n_siblings_spouses', 'parch', 'class', 'deck',
                        'embark_town', 'alone'] # Categorical = not numeric
-NUMERIC_COLUMNS = ['age', 'fare']
+NUMERIC_COLUMNS = ['age', 'fare'] # Is anything that has integer or float values already
 
 feature_columns = []
 for feature_name in CATEGORICAL_COLUMNS:
