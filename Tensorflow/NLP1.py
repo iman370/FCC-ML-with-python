@@ -15,6 +15,8 @@ BATCH_SIZE = 64
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words = VOCAB_SIZE)
 
 # Pre-processing
+# If the text is more than 250 words then trim down the text
+# If the text is less than 250 words then add 0's to the text so the word count goes up
 train_data = sequence.pad_sequences(train_data, MAXLEN)
 test_data = sequence.pad_sequences(test_data, MAXLEN)
 
