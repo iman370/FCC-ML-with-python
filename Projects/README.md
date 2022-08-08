@@ -22,3 +22,9 @@ https://colab.research.google.com/drive/1cJhYNmL2vRwwvaM4L5nctsUYk0gMnNt8?usp=sh
 How did I find this challenge?
 
 It was easier than the others - however I struggled with getting the data in the right form (turning strings into numeric values)
+
+-----------------------
+# Neural Network SMS Text Classifier
+
+Link:
+https://colab.research.google.com/drive/1x5jd2pliPuutha7SsmJn0haVti-59-t_?usp=sharing
