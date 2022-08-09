@@ -12,6 +12,7 @@ VOCAB_SIZE = 88584
 MAXLEN = 250
 BATCH_SIZE = 64
 
+# This loads the dataset and tokenises each word into an integer
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words = VOCAB_SIZE)
 
 # Pre-processing
