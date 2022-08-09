@@ -12,7 +12,7 @@ VOCAB_SIZE = 88584
 MAXLEN = 250
 BATCH_SIZE = 64
 
-# This loads the dataset and tokenises each word into an integer
+# This loads the dataset and encodes each word into an integer
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words = VOCAB_SIZE)
 
 # Pre-processing
@@ -73,7 +73,7 @@ def predict(text):
   result = model.predict(pred) 
   print(result[0])
 
-positive_review = "this movie is so awesome i love monkeys and minions"
+positive_review = "this movie is so awesome"
 predict(positive_review)
 
 #negative_review = "that movie really sucked. I hated it and wouldn't watch it again. Was one of the worst things I've ever watched"
