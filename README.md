@@ -20,6 +20,6 @@ Learnt about:
 
 -Convolutional Neural Networks
 
--Natural Language Processing
+-Natural Language Processing (and Recurrent Neural Networks)
 
 -Reinforcement Learning (Q-Learning)
