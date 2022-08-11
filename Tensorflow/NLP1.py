@@ -38,7 +38,7 @@ history = model.fit(train_data, train_labels, epochs=10, validation_split=0.2)
 results = model.evaluate(test_data, test_labels)
 print(results)
 
-# Making predictions
+# Getting the list of words and their index
 word_index = imdb.get_word_index()
 
 def encode_text(text): # We should encode our text with the same encoding used to make the model
