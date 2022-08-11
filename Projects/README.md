@@ -31,4 +31,6 @@ https://colab.research.google.com/drive/1x5jd2pliPuutha7SsmJn0haVti-59-t_?usp=sh
 
 How did I find this challenge?
 
-The hardest part of this challenge was encoding each word into an integer manually. When I learnt about encoding datasets (the movie review NLP project using the imdb dataset), it was already done for my by the time I loaded in the dataset.
+The hardest part of this challenge was encoding each word into an integer manually. When I learnt about encoding datasets (the movie review NLP project using the imdb dataset), it was already done for my by the time I loaded in the dataset. I got to it in the end and it wasn't as hard as it seemed at all.
+
+My model had also compiled with near perfect accuracy and this was a bit worrying incase I had overfit the training and testing data. However, thankfully that wasn't the case.
