@@ -1,3 +1,9 @@
+# Rock Paper Scissors
+
+Link:
+https://replit.com/@iman370/boilerplate-rock-paper-scissors#RPS.py
+------------------------
+
 # Cat and Dog image classifier using CNN
 
 Link:
@@ -12,6 +18,10 @@ It was a bit challenging since it was my first ever CNN model. I struggled the m
 
 Link:
 https://colab.research.google.com/drive/1Shs7fQQDav5nhUpQ7AMwUBjSEiM48iVJ?usp=sharing
+
+How did I find this challenge?
+
+This one was definitely the hardest since I've never made a KNN model before. However, at the end I realised that I spent more time pre-processing the data and about 5-10 minutes figuring out how to create the KNN model.
 
 ------------------------
 # Health Costs Calculator using Linear Regression
