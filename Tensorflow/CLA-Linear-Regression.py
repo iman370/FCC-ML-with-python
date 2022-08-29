@@ -24,8 +24,8 @@ CATEGORICAL_COLUMNS = ['sex', 'n_siblings_spouses', 'parch', 'class', 'deck',
 NUMERIC_COLUMNS = ['age', 'fare'] # Is anything that has integer or float values already
 
 feature_columns = []
-for feature_name in CATEGORICAL_COLUMNS:
-  vocabulary = dftrain[feature_name].unique()  # gets a list of all unique values from given feature column
+for feature_name in CATEGORICAL_COLUMNS: #Iterate through each item in categorical_columns
+  vocabulary = dftrain[feature_name].unique()  # gets a list of all unique values from given feature column in categorical column
   feature_columns.append(tf.feature_column.categorical_column_with_vocabulary_list(feature_name, vocabulary))
 
 for feature_name in NUMERIC_COLUMNS:
